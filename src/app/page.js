@@ -37,6 +37,7 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
+  
   const handleScroll = (ref) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
