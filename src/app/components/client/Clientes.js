@@ -56,6 +56,7 @@ const Client = () => {
                 mt: 9,
               }}
             >
+            
               <Image
                 src={austral}
                 alt="Logo 1"
